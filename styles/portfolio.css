@@ -72,6 +72,11 @@ nav li a{
   font-size:18px;
   color:#757575;
 }
+
+.text-center{
+  text-align:center;
+}
+
 /* banner styles */
 
 .banner{
@@ -103,7 +108,6 @@ nav li a{
   border-radius:10px;
   padding:130px 150px;
   text-align:center;
-  margin-top:130px;
 }
 
 /* Main styles */
@@ -112,10 +116,27 @@ main{
   margin:0 auto;
 }
 
+main section{
+  margin-top:130px;
+  margin-bottom:130px;
+}
+
 .about-items{
   display:flex;
   justify-content:space-around;
 }
 .item-description{
   font-weight:600;
+}
+
+/* Skills section */
+.skills-container{
+  display:flex;
+  gap:24px;
+}
+
+.skill{
+  padding:30px;
+  border-radius:5px;
+  box-shadow:0 6px 50px 0 black;
 }
